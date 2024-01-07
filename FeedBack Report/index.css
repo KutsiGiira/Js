@@ -1,0 +1,108 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-color: hsl(213, 19%, 18%);
+}
+
+.content{
+    background-color: hsl(216, 12%, 8%);
+    width: 22rem;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    color: white;
+    top: 25%;
+}
+
+.inner{
+    margin: 12px;
+}
+
+
+/* rate page section */
+.ratePage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+#star{
+    background-color:hsl(213, 19%, 18%);
+    padding: 8px;
+    border-radius: 50px;
+}
+
+h2{
+    text-align: center;
+}
+.text{
+    color: rgba(255, 255, 255, 0.555);
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li button{
+    padding: 11px 15px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    border: transparent;
+    color: white
+}
+
+li button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+li button:focus{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+#Submit, .Submit button { 
+    width: 95%;
+    height: 30px;
+    background-color: orange;
+    text-transform: uppercase;
+    border:transparent;
+    border-radius: 30px;
+    color:white;
+    margin: 10px;
+}
+
+#Submit:hover, .Submit button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* Thanks page section */
+
+.secpart{
+    display: none;
+}
+
+.thankPage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Pic{
+    margin: 0px auto;
+}
+
+.output{
+    background-color: hsla(213, 20%, 18%, 0.473);
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 40px;
+    color: orange;
+    margin: auto auto;
+}
