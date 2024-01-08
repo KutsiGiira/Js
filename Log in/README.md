@@ -1,0 +1,1 @@
+Trying to make same project idea but without anyhelp
