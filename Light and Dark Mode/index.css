@@ -53,6 +53,7 @@ body{
     background-color:black;
     border:transparent;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 
