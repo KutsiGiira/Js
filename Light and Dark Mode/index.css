@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.top{
+    display: flex;
+    border-bottom: white solid 1px;
+    height: fit-content;
+}
+
+.title{
+    color: white;
+    height: fit-content;
+    margin: 0px auto;
+}
+.container{
+    border:white solid 2px;
+    width: 60px;
+    height: 20px;
+    display: flex;
+    border-radius: 40px;
+    padding: 2px 0px;
+}
+
+.btn{
+    width: 40%;
+    border-radius: 60%;
+    background-color: white;
+}
+
+.text{
+    color: white;
+    border: white solid 1px;
+    width: 60%;
+    height:fit-content;
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    font-weight: bold;
+}
+/* on click */
+
+.btn:focus{
+    transform: translateX(30px);
+    background-color:black;
+    border:transparent;
+    transition-duration: 1s;
+}
+
+
