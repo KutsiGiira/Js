@@ -31,6 +31,7 @@ body{
     width: 40%;
     border-radius: 60%;
     background-color: white;
+    cursor: pointer;
 }
 
 .text{

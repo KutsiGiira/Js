@@ -28,7 +28,7 @@ body{
     margin: 120px 0px;
 }
 
-main{
+form{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -68,6 +68,12 @@ button:hover{
 }
 button:focus{
     transform: scale(.96);
+}
+
+.inp{
+    border: none;
+    background-color: transparent;
+    color: white;
 }
 .undertext{
     color:rgba(0, 0, 0, 0.24);
