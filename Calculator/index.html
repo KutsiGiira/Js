@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <style>
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 90dvh;
+        }
+        span{
+            font-size: 30px;
+            color: rebeccapurple;
+        }
+    </style>
 </head>
 <body>
     <main>
         <section class="firstNumber">    
             <label>First Number</label>
-            <input type="number" id="first">
+            <input type="number" id="first" value="0" autofocus>
         </section>
 
         <section class="secondNumber">
             <label>Second Number</label>
-            <input type="number" id="second">
+            <input type="number" id="second" value="0">
+            <!-- <span id="error"></span> -->
         </section>
-        <!-- <input type="submit"> -->
-        <section class="result">
+        <section>
             <button>Divide</button>
             <button>Multiply</button>
+        </section>
+        <section class="result">
+  
             <div class="output">The result is : <span> 0</span></div>
         </section>
     </main>
