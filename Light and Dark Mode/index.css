@@ -25,13 +25,17 @@ body{
     display: flex;
     border-radius: 40px;
     padding: 2px 0px;
+    display: flex;
+    align-items: center;
 }
 
 .btn{
     width: 40%;
+    height: 3.5vh;
     border-radius: 60%;
     background-color: white;
     cursor: pointer;
+    display: block;
 }
 
 .text{
@@ -47,7 +51,6 @@ body{
     top: 20%;
     font-weight: bold;
 }
-/* on click */
 
 .btn:focus{
     transform: translateX(30px);
@@ -57,4 +60,22 @@ body{
     cursor: pointer;
 }
 
+.butn{
+    width: 40%;
+    height: 3.5vh;
+    border-radius: 60%;
+    background-color: black;
+    cursor: pointer;
+    border: transparent;
+    display: none;
+    margin-left: 30px;
+}
+
+.butn:focus{
+    transform: translateX(-21px);
+    background-color:black;
+    border:transparent;
+    transition-duration: 1s;
+    cursor: pointer;
+}
 
