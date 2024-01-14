@@ -1,0 +1,24 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.bg{
+    background: linear-gradient(to right,#ff0000, #0000ff);
+}
+main{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:30%;
+    text-align: center;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.value{
+    font-size: x-large;
+    font-weight: 700;
+}
