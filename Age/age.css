@@ -30,8 +30,24 @@ input{
     width: 50%;
     padding: 10px;
     margin-left: 5px;
-    border: solid 1px rgb(156, 156, 156);
 }
+#cor{
+    border: solid 1px rgb(156, 156, 156);
+    display: block;
+}
+/* section1{
+    color: rgb(168, 2, 2);
+}
+.error{
+    border: solid 1px red;
+    display: block;
+    color: red;
+}
+.error::placeholder{
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+} */
 input::placeholder{
     font-size: larger;
     font-weight: bolder;
@@ -62,3 +78,4 @@ img{
     border-radius: 50%;
     padding: 10px;
 }
+
